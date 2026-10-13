@@ -49,7 +49,7 @@
 
 ## 📈 Contribution Graph
 
-[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=michaellu2007&theme=github)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<img alt="3d profile" src="https://raw.githubusercontent.com/michaellu2007/michaellu2007/main/profile-3d-contrib/profile-night-view.svg" />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/michaellu2007/michaellu2007/output/github-contribution-grid-snake-dark.svg" />
