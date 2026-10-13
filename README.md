@@ -32,17 +32,12 @@
 
 ### 🔧 Tech & Tools
 
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/-Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![Ollama](https://img.shields.io/badge/-Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
-![GLM](https://img.shields.io/badge/GLM-%E6%99%BA%E8%B0%B1-3D5AFE?style=for-the-badge)
+<img src="assets/typescript.svg" alt="TypeScript"> <img src="assets/nodejs.svg" alt="Node.js"> <img src="assets/javascript.svg" alt="JavaScript"> <img src="assets/html5.svg" alt="HTML5"> <img src="assets/ollama.svg" alt="Ollama"> <img src="assets/glm.svg" alt="GLM">
 
 ### 📫 Connect
 
-[![GitHub](https://img.shields.io/badge/GitHub-michaellu2007-181717?style=for-the-badge&logo=github)](https://github.com/michaellu2007)
-[![Email](https://img.shields.io/badge/Email-你的邮箱-EA4335?style=for-the-badge&logo=gmail)](mailto:你的邮箱)
+[![GitHub](assets/github.svg)](https://github.com/michaellu2007)
+[![Email](assets/email.svg)](mailto:你的邮箱)
 
 ---
 
