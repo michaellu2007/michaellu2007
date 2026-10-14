@@ -31,7 +31,7 @@
 ### 📫 Connect
 
 [![GitHub](assets/github.svg)](https://github.com/michaellu2007)
-[![Email](assets/email.svg)](mailto:michaellu2007@163.com)
+[![Email](assets/email.svg)](mailto:michaellu2007+github@163.com)
 
 ---
 
