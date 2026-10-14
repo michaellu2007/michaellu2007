@@ -9,26 +9,20 @@
 
 # Hi there 👋
 
-我是 **张怀民**（[michaellu2007](https://github.com/michaellu2007)），米奇妙妙屋常住居民，常驻上海迪士尼。喜欢写点代码，也相信优雅的代码和完美的走线一样，都是最优解。
-
-> 这里不展示学校信息——主页只放好玩的东西 🏰
+我是 **张怀民**（[michaellu2007](https://github.com/michaellu2007)）
 
 ---
 
 ### 🚀 Projects
 
 - **💘 [crush-monitor-agent](https://github.com/michaellu2007/crush-monitor-agent)** - 基于微信聊天记录的关系感知与陪伴决策 Agent
-  - 双系统架构：本地小模型（Ollama + JevK5）逐条做情绪 / 意图判断——免费、毫秒级；云端模型（GLM）负责顾问对话与回复生成，评估与生成分开路由
+  - 双系统架构：本地小模型（Ollama + JevK5）逐条做情绪 / 意图判断——免费；云端模型（GLM）负责顾问对话与回复生成，评估与生成分开路由
   - 微信式三栏界面：会话列表 / 聊天记录 / 顾问对话；chatlog 解密导入，多会话管理，好感度与关系阶段概览，可勾选记录当上下文问"下一步怎么聊"
-  - TypeScript + Node.js，数据全部存本机，隐私优先；81 项测试护航
   - 深度改造自 [FerryCorleone/crush-monitor](https://github.com/FerryCorleone/crush-monitor)（MIT），感谢原项目
 
 ### 🏰 Interests
 
-- **米奇妙妙屋 & 上海迪士尼** —— 常住居民，随时在线
-- **AI Agent** —— 本地 / 云端混合推理、关系感知、陪伴决策
-- **隐私优先的本地工具** —— 数据不出本机
-- **开源** —— 站在巨人的肩膀上，也努力成为别人的肩膀
+- **米奇妙妙屋 & 上海迪士尼**
 
 ### 🔧 Tech & Tools
 
@@ -37,7 +31,7 @@
 ### 📫 Connect
 
 [![GitHub](assets/github.svg)](https://github.com/michaellu2007)
-[![Email](assets/email.svg)](mailto:你的邮箱)
+[![Email](assets/email.svg)](mailto:michaellu2007@163.com)
 
 ---
 
