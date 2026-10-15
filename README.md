@@ -33,6 +33,18 @@
   - qbot 回测 / 选股面板 + 均线交叉等策略脚本，数据源 AKShare / Tushare，零成本运行
   - 每日收盘自动跑批：策略信号生成 + 结果落盘，bat 一键启动
 
+- **🛡️ [injection-defense-vs-utility](https://github.com/michaellu2007/injection-defense-vs-utility)** - Agent 能否拒绝提示注入的同时完成任务？安全–效用权衡实验 🚧 working on
+  - 三臂对比（无防御 / spotlight 数据边界提示 / 工具输出过滤），每个注入案例配一个良性孪生，过度拒绝单独计分
+  - 离线 mock 工具环境 + 合成金丝雀 secret、无网络动作；参考 AgentDyn / AgentDojo
+
+- **⚖️ [small-classifier-vs-prompted-llm](https://github.com/michaellu2007/small-classifier-vs-prompted-llm)** - 小分类器什么时候胜过被 prompt 的 LLM？标签预算学习曲线实验 🚧 working on
+  - 每类 k∈{8,32,128} 标注下三范式对比：TF-IDF+LogRes / MiniLM+LogRes / Qwen3-0.6B 8-shot
+  - 首轮结论：k=8 起分类器全面反超 decoder，≥8 条标注/类时 encoder+线性头在 F1、校准、延迟上全面占优
+
+- **📏 [dpo-shortcuts](https://github.com/michaellu2007/dpo-shortcuts)** - DPO 学的是正确性还是冗长度？长度捷径拆解实验 🚧 working on
+  - 构造 SC / LC 两种偏好对（被偏好的都是正确但长度相反），把「正确性」与「长度/风格」两个维度拆开测
+  - 试点发现 DPO-LC 学的是长度捷径（输出膨胀、42.5% 退化为复读、正确率反降），同数据 SFT 对照拿 0.90；复旦 NLP/LLM 课程 project
+
 ### 🏰 Interests
 
 - **米奇妙妙屋 & 上海迪士尼**
