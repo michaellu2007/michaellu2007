@@ -39,7 +39,7 @@
 
 ### 🔧 Tech & Tools
 
-<img src="assets/typescript.svg" alt="TypeScript"> <img src="assets/nodejs.svg" alt="Node.js"> <img src="assets/javascript.svg" alt="JavaScript"> <img src="assets/html5.svg" alt="HTML5"> <img src="assets/python.svg" alt="Python" height="28"> <img src="assets/ollama.svg" alt="Ollama"> <img src="assets/glm.svg" alt="GLM">
+<img src="assets/typescript.svg" alt="TypeScript"> <img src="assets/nodejs.svg" alt="Node.js"> <img src="assets/javascript.svg" alt="JavaScript"> <img src="assets/html5.svg" alt="HTML5"> <img src="assets/ollama.svg" alt="Ollama"> <img src="assets/glm.svg" alt="GLM">
 
 ### 📫 Connect
 
