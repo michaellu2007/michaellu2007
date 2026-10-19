@@ -33,6 +33,11 @@
   - qbot 回测 / 选股面板 + 均线交叉等策略脚本，数据源 AKShare / Tushare，零成本运行
   - 每日收盘自动跑批：策略信号生成 + 结果落盘，bat 一键启动
 
+- **📱 [DanXi](https://github.com/michaellu2007/DanXi)** - DanXi（复旦校园一站式 App）个人自编译版，fork 自 [DanXi-Dev/DanXi](https://github.com/DanXi-Dev/DanXi)，仅 Android
+  - 修复 TEE/Keystore 受损设备「每次重启都掉登录」：主密钥降级为普通 SharedPreferences 明文存储，绕开 Keystore 恢复流程；同时移除更新提示（签名与官方不同，无法覆盖升级）
+  - ⬇️ 自编译 Release 下载：**[v1.5.3-selfbuild.1 APK](https://github.com/michaellu2007/DanXi/releases/download/v1.5.3-selfbuild.1/DanXi-1.5.3-selfbuild.1-android.apk)**（38.9 MB，sha256 `f926d471…90a94c`）· [Releases 页面](https://github.com/michaellu2007/DanXi/releases)
+  - ⚠️ 仅适合刷机后安全芯片（TEE/Keystore）受损、重启反复掉登录的设备；从官方版切换需卸载重装（本地数据会清空），普通用户请使用官方版本
+
 - **🛡️ [injection-defense-vs-utility](https://github.com/michaellu2007/injection-defense-vs-utility)** - Agent 能否拒绝提示注入的同时完成任务？安全–效用权衡实验 🚧 working on
   - 三臂对比（无防御 / spotlight 数据边界提示 / 工具输出过滤），每个注入案例配一个良性孪生，过度拒绝单独计分
   - 离线 mock 工具环境 + 合成金丝雀 secret、无网络动作；参考 AgentDyn / AgentDojo
