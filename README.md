@@ -53,6 +53,7 @@
 ### 🏰 Interests
 
 - **米奇妙妙屋 & 上海迪士尼**
+- **📚 [Zotero](https://www.zotero.org/jingyao-lu2007)** - 文献管理与研究资料整理（michaellu2007@163.com）
 
 ### 🔧 Tech & Tools
 
