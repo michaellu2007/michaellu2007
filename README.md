@@ -34,6 +34,8 @@
   - 自适应速率估算：本地 48h 窗口 + EWMA 日用电（半衰期 2 天）+ 走表衰减倒计时；撑不过 12h 发提醒邮件（夜间静默、每 12h 重发），充值后点邮件按钮或双击 bat 一键静默 24h
   - 低电量自动关机：夜间剩约 1 小时电量即发起 10 分钟倒计时（可一键取消）；IMAP 识别 REFILLED / UNSUB / RESUB 零人工反馈；Windows 计划任务每 30 分钟静默运行，无常驻进程
 
+- **🔋 石头扫地机器人电池健康度检测** 🚧 计划中 · 敬请期待
+
 - **📈 [my-quant-lab](https://github.com/michaellu2007/my-quant-lab)** - 免费简陋的量化实验平台（Python）
   - qbot 回测 / 选股面板 + 均线交叉等策略脚本，数据源 AKShare / Tushare，零成本运行
   - 每日收盘自动跑批：策略信号生成 + 结果落盘，bat 一键启动
@@ -74,6 +76,8 @@
   - 特性：多地图引擎（高德 / 百度 / Google Maps）+ 坐标系自适应、OU 过程 GPS 物理抖动、isFromMockProvider 抹除 / 调用栈清洗等反检测、Wi-Fi / 基站 / BLE 环境模拟、路线规划与红绿灯驻留
   - ⬇️ 个人编译 Release：[v2.6.13-fix](https://github.com/michaellu2007/Location-Spoofer/releases/tag/v2.6.13-fix)（修复「智能自适应步频」导致微信运动步数暴涨的 bug + 新增前台常亮）· **[arm64-v8a APK](https://github.com/michaellu2007/Location-Spoofer/releases/download/v2.6.13-fix/LocationSpoofer_v2.6.13-fixed-arm64-v8a.apk)**（65.8 MB，64 位新机型）· **[armeabi-v7a APK](https://github.com/michaellu2007/Location-Spoofer/releases/download/v2.6.13-fix/LocationSpoofer_v2.6.13-fixed-armeabi-v7a.apk)**（54.0 MB，32 位旧机型）· [Releases 页面](https://github.com/michaellu2007/Location-Spoofer/releases)
   - ⚠️ 个人编译版签名与官方不同，安装前需卸载旧版（数据清空）、装后在 LSPosed 重新勾选作用域并强制停止微信；涉及 Root 与系统 Hook，仅限自有设备或已授权测试环境
+
+- **🚴 Mentech 骑行 App 自编译版** 🚧 计划中 · 敬请期待
 
 ### 🏰 Interests
 
