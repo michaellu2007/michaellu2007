@@ -33,6 +33,11 @@
   - qbot 回测 / 选股面板 + 均线交叉等策略脚本，数据源 AKShare / Tushare，零成本运行
   - 每日收盘自动跑批：策略信号生成 + 结果落盘，bat 一键启动
 
+- **📊 [ridehailing-stoploss-study](https://github.com/michaellu2007/ridehailing-stoploss-study)** - 网约车停运损失司法案例实证分析：17,259 份判决书（2019–2026.7，北大法宝），Python
+  - 核心发现：全额支持仅 18.6%、76.5% 部分支持，判赔/索赔比例中位数 73.2%；「酌定即打折」——酌定案件全额支持率 17.0% vs 37.0%（-20pp，p<0.001）；流水提高「谈判锚」但不提高「兑现率」
+  - 方法：逻辑回归（IRLS+Wald）+ 倾向得分匹配（卡尺 0.05，匹配后 SMD<0.03）+ 裁判理由 10 类规则归类 + Monroe log-odds 关键词对比 + DID（2026 最高法道交司法解释二为外生冲击）
+  - pyecharts 交互图表 [GitHub Pages 在线浏览](https://michaellu2007.github.io/ridehailing-stoploss-study/)；代码 MIT，原始判决书不入库、仅存汇总结果
+
 - **📱 [DanXi](https://github.com/michaellu2007/DanXi)** - DanXi（复旦校园一站式 App）个人自编译版，fork 自 [DanXi-Dev/DanXi](https://github.com/DanXi-Dev/DanXi)，仅 Android
   - 修复 TEE/Keystore 受损设备「每次重启都掉登录」：主密钥降级为普通 SharedPreferences 明文存储，绕开 Keystore 恢复流程；同时移除更新提示（签名与官方不同，无法覆盖升级）
   - ⬇️ 自编译 Release 下载：**[v1.5.3-selfbuild.1 APK](https://github.com/michaellu2007/DanXi/releases/download/v1.5.3-selfbuild.1/DanXi-1.5.3-selfbuild.1-android.apk)**（38.9 MB，sha256 `f926d471…90a94c`）· [Releases 页面](https://github.com/michaellu2007/DanXi/releases)
@@ -42,6 +47,12 @@
   - 特性：多地图引擎（高德 / 百度 / Google Maps）+ 坐标系自适应、OU 过程 GPS 物理抖动、isFromMockProvider 抹除 / 调用栈清洗等反检测、Wi-Fi / 基站 / BLE 环境模拟、路线规划与红绿灯驻留
   - ⬇️ 个人编译 Release：[v2.6.13-fix](https://github.com/michaellu2007/Location-Spoofer/releases/tag/v2.6.13-fix)（修复「智能自适应步频」导致微信运动步数暴涨的 bug + 新增前台常亮）· **[arm64-v8a APK](https://github.com/michaellu2007/Location-Spoofer/releases/download/v2.6.13-fix/LocationSpoofer_v2.6.13-fixed-arm64-v8a.apk)**（65.8 MB，64 位新机型）· **[armeabi-v7a APK](https://github.com/michaellu2007/Location-Spoofer/releases/download/v2.6.13-fix/LocationSpoofer_v2.6.13-fixed-armeabi-v7a.apk)**（54.0 MB，32 位旧机型）· [Releases 页面](https://github.com/michaellu2007/Location-Spoofer/releases)
   - ⚠️ 个人编译版签名与官方不同，安装前需卸载旧版（数据清空）、装后在 LSPosed 重新勾选作用域并强制停止微信；涉及 Root 与系统 Hook，仅限自有设备或已授权测试环境
+
+- **🐶 [mocklocation](https://github.com/michaellu2007/mocklocation)** - BeagleInCampus：无 root 的 Android 模拟定位学习项目（Kotlin），走系统 TestProvider 公开 API
+  - 显示 / 注入双通道分离：地图回放是零噪声理想轨迹，注入通道叠加有界 OU 扰动（硬钳幅 ±4.4m、无误差累计）+ 步频横向高斯抖动
+  - 高德 / 百度双引擎地图、搜索选点、准星描点画路线、10Hz 回放与配速调节、路线保存 / 导出 / 分享 / 导入、WGS-84 / GCJ-02 / BD-09 坐标系自适应
+  - ⬇️ [Releases](https://github.com/michaellu2007/mocklocation/releases) 下载 APK（最新 [v0.0.5](https://github.com/michaellu2007/mocklocation/releases/download/v0.0.5/BeagleInCampus-v0.0.5.apk)，Android 8.0+，arm64-v8a，29.0 MB）
+  - ⚠️ 仅供定位技术学习与娱乐演示，请勿用于签到打卡或作弊；Android 12+ 系统强制 isMock 标记、无法隐藏
 
 - **🛡️ [injection-defense-vs-utility](https://github.com/michaellu2007/injection-defense-vs-utility)** - Agent 能否拒绝提示注入的同时完成任务？安全–效用权衡实验 🚧 working on
   - 三臂对比（无防御 / spotlight 数据边界提示 / 工具输出过滤），每个注入案例配一个良性孪生，过度拒绝单独计分
