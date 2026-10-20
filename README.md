@@ -9,7 +9,7 @@
 
 # Hi there 👋
 
-我是 **mini_doro**（[michaellu2007](https://github.com/michaellu2007)）
+我是 **mini_doro**（[michaellu2007](https://github.com/michaellu2007)）,某781大学大学牲。这里是我的杂物间，会上传一些我感兴趣的小玩意。
 
 ---
 
@@ -20,7 +20,7 @@
   - 微信式三栏界面：会话列表 / 聊天记录 / 顾问对话；chatlog 解密导入，多会话管理，好感度与关系阶段概览，可勾选记录当上下文问"下一步怎么聊"
   - 深度改造自 [FerryCorleone/crush-monitor](https://github.com/FerryCorleone/crush-monitor)（MIT），感谢原项目
 
-- **📚 [fdu-note-summarized](https://github.com/michaellu2007/fdu-note-summarized)** - 复旦大学课程笔记：AI 辅助整理老师讲义与学长笔记 + 人工校对，离线 KaTeX 渲染，双击即开
+- **📚 [fdu-note-summarized](https://github.com/michaellu2007/fdu-note-summarized)** - 大学课程笔记：AI 辅助整理老师讲义与学长笔记 + 人工校对，离线 KaTeX 渲染，双击即开
   - 覆盖四门课：《数值算法与案例分析Ⅰ》（邵美悦老师荣誉课程）、《计算理论》、《数据结构》、《LLM与NLP》
   - 每篇笔记标注来源（板书 / 讲义 / 教材补充），公式全部走离线 KaTeX，不依赖网络
 
@@ -34,7 +34,7 @@
   - 自适应速率估算：本地 48h 窗口 + EWMA 日用电（半衰期 2 天）+ 走表衰减倒计时；撑不过 12h 发提醒邮件（夜间静默、每 12h 重发），充值后点邮件按钮或双击 bat 一键静默 24h
   - 低电量自动关机：夜间剩约 1 小时电量即发起 10 分钟倒计时（可一键取消）；IMAP 识别 REFILLED / UNSUB / RESUB 零人工反馈；Windows 计划任务每 30 分钟静默运行，无常驻进程
 
-- **🔋 石头扫地机器人电池健康度检测** 🚧 计划中 · 敬请期待
+- **🔋 石头扫地机器人app电池健康度检测** 🚧 计划中 · 敬请期待
 
 - **📈 [my-quant-lab](https://github.com/michaellu2007/my-quant-lab)** - 免费简陋的量化实验平台（Python）
   - qbot 回测 / 选股面板 + 均线交叉等策略脚本，数据源 AKShare / Tushare，零成本运行
@@ -81,8 +81,10 @@
 
 ### 🏰 Interests
 
-- **米奇妙妙屋 & 上海迪士尼**
-- **🚴 骑行**
+- **cyberpunk2077**
+- **🚴 cycling**
+- **aiming**
+- **fps**
 
 ### 🔧 Tech & Tools
 
