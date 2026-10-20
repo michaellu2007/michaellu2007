@@ -20,7 +20,7 @@
   - 微信式三栏界面：会话列表 / 聊天记录 / 顾问对话；chatlog 解密导入，多会话管理，好感度与关系阶段概览，可勾选记录当上下文问"下一步怎么聊"
   - 深度改造自 [FerryCorleone/crush-monitor](https://github.com/FerryCorleone/crush-monitor)（MIT），感谢原项目
 
-- **📚 [fdu-note-summarized](https://github.com/michaellu2007/fdu-note-summarized)** - 大学课程笔记：AI 辅助整理老师讲义与学长笔记 + 人工校对，离线 KaTeX 渲染，双击即开
+- **📚 [lecture-note-summarized](https://github.com/michaellu2007/fdu-note-summarized)** - 大学课程笔记：AI 辅助整理老师讲义与学长笔记 + 人工校对，离线 KaTeX 渲染，双击即开
   - 覆盖四门课：《数值算法与案例分析Ⅰ》（邵美悦老师荣誉课程）、《计算理论》、《数据结构》、《LLM与NLP》
   - 每篇笔记标注来源（板书 / 讲义 / 教材补充），公式全部走离线 KaTeX，不依赖网络
 
@@ -29,7 +29,7 @@
   - 用来检验自建服务端的防线：请求签名（sn / X-Sn-Verify / HMAC）、心跳节奏、距离合理性、围栏判定
   - 仅限自己部署或获得授权的系统使用（详见仓库内免责声明）
 
-- **🔋 [fdu-dorm-power-sentinel](https://github.com/michaellu2007/fdu-dorm-power-sentinel)** - 复旦寝室电量哨兵：监控宿舍剩余电量，撑不过半天自动发邮件催充值，深夜断电前自动关机保护电脑（Python，MIT）
+- **🔋 [dorm-power-sentinel](https://github.com/michaellu2007/fdu-dorm-power-sentinel)** - 寝室电量哨兵：监控宿舍剩余电量，撑不过半天自动发邮件催充值，深夜断电前自动关机保护电脑（Python，MIT）
   - 认证与电费接口复刻自 DanXi（UIS Neo RSA 加密 + Cookie 持久化），按学号自动关联寝室、无需配房间号；仅依赖 requests / cryptography / openpyxl
   - 自适应速率估算：本地 48h 窗口 + EWMA 日用电（半衰期 2 天）+ 走表衰减倒计时；撑不过 12h 发提醒邮件（夜间静默、每 12h 重发），充值后点邮件按钮或双击 bat 一键静默 24h
   - 低电量自动关机：夜间剩约 1 小时电量即发起 10 分钟倒计时（可一键取消）；IMAP 识别 REFILLED / UNSUB / RESUB 零人工反馈；Windows 计划任务每 30 分钟静默运行，无常驻进程
@@ -67,7 +67,7 @@
 
 ### 🔧 Patched Builds（自编译 / 优化版）
 
-- **📱 [DanXi](https://github.com/michaellu2007/DanXi)** - DanXi（复旦校园一站式 App）个人自编译版，fork 自 [DanXi-Dev/DanXi](https://github.com/DanXi-Dev/DanXi)，仅 Android
+- **📱 [DanXi](https://github.com/michaellu2007/DanXi)** - DanXi（校园一站式 App）个人自编译版，fork 自 [DanXi-Dev/DanXi](https://github.com/DanXi-Dev/DanXi)，仅 Android
   - 修复 TEE/Keystore 受损设备「每次重启都掉登录」：主密钥降级为普通 SharedPreferences 明文存储，绕开 Keystore 恢复流程；同时移除更新提示（签名与官方不同，无法覆盖升级）
   - ⬇️ 自编译 Release 下载：**[v1.5.3-selfbuild.1 APK](https://github.com/michaellu2007/DanXi/releases/download/v1.5.3-selfbuild.1/DanXi-1.5.3-selfbuild.1-android.apk)**（38.9 MB，sha256 `f926d471…90a94c`）· [Releases 页面](https://github.com/michaellu2007/DanXi/releases)
   - ⚠️ 仅适合刷机后安全芯片（TEE/Keystore）受损、重启反复掉登录的设备；从官方版切换需卸载重装（本地数据会清空），普通用户请使用官方版本
