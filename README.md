@@ -38,6 +38,11 @@
   - ⬇️ 自编译 Release 下载：**[v1.5.3-selfbuild.1 APK](https://github.com/michaellu2007/DanXi/releases/download/v1.5.3-selfbuild.1/DanXi-1.5.3-selfbuild.1-android.apk)**（38.9 MB，sha256 `f926d471…90a94c`）· [Releases 页面](https://github.com/michaellu2007/DanXi/releases)
   - ⚠️ 仅适合刷机后安全芯片（TEE/Keystore）受损、重启反复掉登录的设备；从官方版切换需卸载重装（本地数据会清空），普通用户请使用官方版本
 
+- **📍 [Location-Spoofer](https://github.com/michaellu2007/Location-Spoofer)** - Android 虚拟定位 / 无线环境伪装框架（Root + LSPosed），上游源码的自维护副本，个人编译版仅 Android
+  - 特性：多地图引擎（高德 / 百度 / Google Maps）+ 坐标系自适应、OU 过程 GPS 物理抖动、isFromMockProvider 抹除 / 调用栈清洗等反检测、Wi-Fi / 基站 / BLE 环境模拟、路线规划与红绿灯驻留
+  - ⬇️ 个人编译 Release：[v2.6.13-fix](https://github.com/michaellu2007/Location-Spoofer/releases/tag/v2.6.13-fix)（修复「智能自适应步频」导致微信运动步数暴涨的 bug + 新增前台常亮）· **[arm64-v8a APK](https://github.com/michaellu2007/Location-Spoofer/releases/download/v2.6.13-fix/LocationSpoofer_v2.6.13-fixed-arm64-v8a.apk)**（65.8 MB，64 位新机型）· **[armeabi-v7a APK](https://github.com/michaellu2007/Location-Spoofer/releases/download/v2.6.13-fix/LocationSpoofer_v2.6.13-fixed-armeabi-v7a.apk)**（54.0 MB，32 位旧机型）· [Releases 页面](https://github.com/michaellu2007/Location-Spoofer/releases)
+  - ⚠️ 个人编译版签名与官方不同，安装前需卸载旧版（数据清空）、装后在 LSPosed 重新勾选作用域并强制停止微信；涉及 Root 与系统 Hook，仅限自有设备或已授权测试环境
+
 - **🛡️ [injection-defense-vs-utility](https://github.com/michaellu2007/injection-defense-vs-utility)** - Agent 能否拒绝提示注入的同时完成任务？安全–效用权衡实验 🚧 working on
   - 三臂对比（无防御 / spotlight 数据边界提示 / 工具输出过滤），每个注入案例配一个良性孪生，过度拒绝单独计分
   - 离线 mock 工具环境 + 合成金丝雀 secret、无网络动作；参考 AgentDyn / AgentDojo
@@ -53,7 +58,6 @@
 ### 🏰 Interests
 
 - **米奇妙妙屋 & 上海迪士尼**
-- **📚 [Zotero](https://www.zotero.org/jingyao-lu2007)** - 文献管理与研究资料整理（michaellu2007@163.com）
 
 ### 🔧 Tech & Tools
 
@@ -63,6 +67,7 @@
 
 [![GitHub](assets/github.svg)](https://github.com/michaellu2007)
 [![Email](assets/email.svg)](mailto:michaellu2007+github@163.com)
+[![Zotero](assets/zotero.svg)](https://www.zotero.org/jingyao-lu2007)
 
 ---
 
