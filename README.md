@@ -21,7 +21,7 @@
   - 深度改造自 [FerryCorleone/crush-monitor](https://github.com/FerryCorleone/crush-monitor)（MIT），感谢原项目
 
 - **📚 [lecture-note-summarized](https://github.com/michaellu2007/fdu-note-summarized)** - 大学课程笔记：AI 辅助整理老师讲义与学长笔记 + 人工校对，离线 KaTeX 渲染，双击即开
-  - 覆盖四门课：《数值算法与案例分析Ⅰ》（邵美悦老师荣誉课程）、《计算理论》、《数据结构》、《LLM与NLP》
+  - 覆盖四门课：《数值算法与案例分析Ⅰ》、《计算理论》、《数据结构》、《LLM与NLP》、《概率论》
   - 每篇笔记标注来源（板书 / 讲义 / 教材补充），公式全部走离线 KaTeX，不依赖网络
 
 - **🏃 [campus-fit-tester](https://github.com/michaellu2007/campus-fit-tester)** - 自建校园体测系统的接口测试客户端（Node.js）
