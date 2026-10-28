@@ -8,13 +8,13 @@
 
 # Hi there 👋
 
-我是 **mini_doro**（[michaellu2007](https://github.com/michaellu2007)），复旦在读。这里是我的杂物间，会上传一些我感兴趣的小玩意。
+我是 **mini_doro**（[michaellu2007](https://github.com/michaellu2007)），某781大学大学牲。这里是我的杂物间，会上传一些我感兴趣的小玩意。
 
 ---
 
 ### 🚀 Projects
 
-- **💘 crush-monitor-agent** 🚧 开发中（仓库暂未公开）- 基于微信聊天记录的"聊天顾问" Agent
+- **💘 [crush-monitor-agent](https://github.com/michaellu2007/crush-monitor-agent)** 🚧 working on - 基于微信聊天记录的"聊天顾问" Agent
   - 本地小模型判断消息的情绪和意图，云端大模型负责给出聊天建议，界面模仿微信三栏布局
   - 可以勾选聊天记录当上下文，让 AI 陪你分析"下一步怎么聊"
   - 深度改造自 [FerryCorleone/crush-monitor](https://github.com/FerryCorleone/crush-monitor)（MIT），感谢原项目
