@@ -19,19 +19,16 @@
   - 可以勾选聊天记录当上下文，让 AI 陪你分析"下一步怎么聊"
   - 深度改造自 [FerryCorleone/crush-monitor](https://github.com/FerryCorleone/crush-monitor)（MIT），感谢原项目
 
-- **⏰ [fudan-elearning-reminder](https://github.com/michaellu2007/fudan-elearning-reminder)** - 复旦 eLearning 作业自动提醒（Python）
+- **⏰ [elearning-reminder](https://github.com/michaellu2007/fudan-elearning-reminder)** -  eLearning 作业自动提醒（Python）
   - 自动检测没提交 / 没完成的作业，按时发邮件催你，交了就自动闭嘴；线下布置的作业也能提醒
   - 纯本地脚本运行，无需服务器、无需大模型，登录过期自动重登
 
-- **📚 [fdu-note-summarized](https://github.com/michaellu2007/fdu-note-summarized)** - 大学课程笔记：AI 辅助整理老师讲义与学长笔记 + 人工校对，离线公式渲染，双击即开
+- **📚 [lecture-note-summarized](https://github.com/michaellu2007/fdu-note-summarized)** - 大学课程笔记：AI 辅助整理老师讲义与学长笔记 + 人工校对，离线公式渲染，双击即开
   - 覆盖《数值算法与案例分析Ⅰ》《计算理论》《数据结构》《概率论》《LLM与NLP》等课程
   - NLP / LLM 课程的仓库另见 [llm-26-fall](https://github.com/michaellu2007/llm-26-fall)
 
 - **🐱 [Wechat-Emoticon-Parser](https://github.com/michaellu2007/Wechat-Emoticon-Parser)** - 微信表情包导出与聊天图片解密工具（Windows，Python）
   - 从微信 4.1 本地加密数据中解出表情包和聊天图片，按原名整理导出，一条命令跑完
-
-- **🔓 [wechat-decrypt](https://github.com/michaellu2007/wechat-decrypt)** - 微信 4.0 数据库解密工具（Windows，Python，MIT）
-  - 从运行中的微信进程提取密钥，解密本地聊天数据库，支持实时消息监听，可作为 MCP 工具接入 AI 客户端
 
 - **🏃 [campus-fit-tester](https://github.com/michaellu2007/campus-fit-tester)** - 自建校园体测系统的接口测试客户端（Node.js）
   - 完整模拟"登录 → 查询体测计划 → 上传记录 → 提交"全流程，用来检验自建服务端的防护是否严密
@@ -74,7 +71,7 @@
   - 实验发现：每个类别只要 8 条标注，小分类器就能在准确率、速度、成本上全面胜过被提示词驱动的大模型
 
 - **📏 [dpo-shortcuts](https://github.com/michaellu2007/dpo-shortcuts)** 🚧 working on - 偏好微调（DPO）到底在学"答案正确"还是"答案更长"？
-  - 把"正确性"和"长度"两个因素拆开测试，发现模型容易学成"越长越好"的捷径：输出越写越长、正确率反而下降。复旦 NLP/LLM 课程 project
+  - 把"正确性"和"长度"两个因素拆开测试，发现模型容易学成"越长越好"的捷径：输出越写越长、正确率反而下降。
 
 ### 🔧 Patched Builds（自编译 / 优化版）
 
