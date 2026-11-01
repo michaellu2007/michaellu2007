@@ -8,7 +8,7 @@
 
 # Hi there 👋
 
-我是 **mini_doro**（[michaellu2007](https://github.com/michaellu2007)），某781大学大学牲。这里是我的杂物间，会上传一些我感兴趣的小玩意。
+我是 **mini_doro**（[michaellu2007](https://github.com/michaellu2007)）。这里是我的杂物间，会上传一些我感兴趣的小玩意。
 
 ---
 
