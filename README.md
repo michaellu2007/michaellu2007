@@ -27,9 +27,6 @@
   - 覆盖《数值算法与案例分析Ⅰ》《计算理论》《数据结构》《概率论》《LLM与NLP》等课程
   - NLP / LLM 课程的仓库另见 [llm-26-fall](https://github.com/michaellu2007/llm-26-fall)
 
-- **🐱 [Wechat-Emoticon-Parser](https://github.com/michaellu2007/Wechat-Emoticon-Parser)** - 微信表情包导出与聊天图片解密工具（Windows，Python）
-  - 从微信 4.1 本地加密数据中解出表情包和聊天图片，按原名整理导出，一条命令跑完
-
 - **🏃 [campus-fit-tester](https://github.com/michaellu2007/campus-fit-tester)** - 自建校园体测系统的接口测试客户端（Node.js）
   - 完整模拟"登录 → 查询体测计划 → 上传记录 → 提交"全流程，用来检验自建服务端的防护是否严密
   - 仅限自己部署或获得授权的系统使用（详见仓库内免责声明）
@@ -54,9 +51,6 @@
   - 地图选点、描点画路线、按配速自动回放，支持高德 / 百度地图
   - ⬇️ [Releases](https://github.com/michaellu2007/mocklocation/releases) 下载 APK（Android 8.0+）
   - ⚠️ 仅供定位技术学习与娱乐演示，请勿用于签到打卡或作弊
-
-- **🛒 [edge-key](https://github.com/michaellu2007/edge-key)** - EdgeKey：一键部署到 Cloudflare Workers 的开源卡密商城系统
-  - 前端页面、后端接口一体，同一套代码直接跑在 Cloudflare 上，零服务器成本
 
 - **📝 小教程 / 资源整理**
   - [chatgpt-plus-tutorial](https://github.com/michaellu2007/chatgpt-plus-tutorial) - ChatGPT Plus / Pro 国内自助充值教程（支付宝 / 微信，免账号密码）
